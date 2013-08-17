@@ -1,0 +1,31 @@
+<h1>Listando Compras</h1>
+
+<table class="table table-stripped">
+  <tr>
+    <th>Data</th>
+    <th>Total</th>
+    <th>Supermercado</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @compras.each do |compra| %>
+  <tr>
+    <td><%= I18n.localize(compra.data) %></td>
+    <td><%= number_to_currency(compra.total) %></td>
+    <td><%= compra.supermercado.nome %></td>
+    <td><%= link_to 'Exibir', compra %></td>
+    <td><%= link_to 'Editar', edit_compra_path(compra) %></td>
+    <td><%= link_to 'Apagar', compra, method: :delete, data: { confirm: 'Deseja Realmente Apagar?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<div>
+  <%= will_paginate @compras %> 
+</div>  
+
+<br />
+
+<%= link_to 'Nova Compra', new_compra_path %>

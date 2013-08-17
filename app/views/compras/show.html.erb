@@ -1,0 +1,49 @@
+<h2 align="center">Compra</h2>
+<table class="table table-stripped">
+  <tr>
+  	<td>
+  		<p>
+  			<b>Supermercado:</b> <%= @compra.supermercado.nome %>
+		</p>
+  	</td>	
+  	<td>
+  		<p>
+  			<b>Data:</b><%= I18n.localize(@compra.data) %>
+		</p>
+  	</td>	
+  	<td>
+  		<p>
+		  <b>Total:</b> <%= number_to_currency(@compra.total) %>
+		</p>
+  	</td>	
+  <tr>
+</table>  	
+<h2 align="center">Itens da Compra</h2>
+<table class="table table-stripped">
+  <% if @compra.item_compras.nil? or @compra.item_compras.empty? %>
+  	<tr align="center">
+  		<h4 align="center">Nenhum Item Encontrado</h4>
+  	</tr>
+  <% else %>	
+	  <tr>
+	  	<th>Produto</th>
+	    <th>Quantidade</th>
+	    <th>Preco Unitario</th>
+	    <th>Preco Total</th>
+	  </tr>
+
+	  <% @compra.item_compras.each do |item_compra| %>
+		  <tr>
+		  	<td><%= item_compra.produto.nome %></td>
+		    <td><%= item_compra.quantidade %></td>
+		    <td><%= number_to_currency(item_compra.preco) %></td>
+		    <td><%= number_to_currency(item_compra.quantidade * item_compra.preco) %></td>
+		  </tr>
+	  <% end %>
+  <% end %>		  
+</table>
+
+<br />
+
+<%= link_to 'Editar', edit_compra_path(@compra) %> |
+<%= link_to 'Voltar', compras_path %>

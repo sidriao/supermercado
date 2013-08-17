@@ -1,0 +1,56 @@
+<%= form_for(@item_compra, html:{id: 'form_compra', class:'form-inline'}) do |f| %>
+  <% if @item_compra.errors.any? %>
+    <div id="error_explanation">
+      <%= error_messages @item_compra %>
+    </div>
+  <% end %>
+  <%= f.hidden_field :compra_id, :value =>  @item_compra.compra.id %>
+  <table id="item_compras" class="table table-stripped">
+    <tr class="fields">
+      <th>Produto</th>
+      <th>Quantidade</th>
+      <th>Preco</th>
+    </tr>
+    <tr class="fields">
+       <td> 
+          <%= f.autocomplete_field :produto_nome, autocomplete_produto_nome_item_compras_path,  :id_element => '#produto', :data => { :no_matches_label => "Produto Nao Encontrado" }  %>
+          <input class="hidden" id="produto" name="compra[produto_id]" type="hidden">
+          <!-- Button to trigger modal -->
+          <a href="#myModal" role="button" class="btn btn-small; padding: 0px;" data-toggle="modal"><i class="icon-plus"></i>Produto</a>
+       </td>
+       <td><%= f.text_field :quantidade %></td>
+       <td><%= f.text_field :preco %></td>
+
+    </tr>
+  </table>    
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+ <!-- Modal -->
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 id="myModalLabel">Novo Produto</h3>
+    </div>
+    <div class="modal-body">
+      <%= form_for(Produto.new, :url => { :action => "adiciona_produto" }) do |fp| %>
+        <div class="field">
+          <%= fp.label :nome %><br />
+          <%= fp.text_field :nome %>
+        </div>
+        <div class="field">
+          <%= fp.label :unidade_medida %><br />
+          <%= fp.collection_select(:unidade_medida_id, UnidadeMedida.all, :id, :nome, {:prompt => true}) %>
+        </div>
+        <div class="field">
+          <%= fp.label :grupo %><br />
+          <%= fp.collection_select(:grupo_id, Grupo.all, :id, :nome, {:prompt => true}) %>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" data-dismiss="modal" aria-hidden="true">Fecha</button>
+      <button class="btn btn-primary">Criar</button>
+    </div>
+    <% end %>
+  </div>

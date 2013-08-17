@@ -1,0 +1,32 @@
+<h3>Usuarios</h3>
+<div class="span8">
+<table class="table table-stripped">
+  <thead>
+    <tr>
+      <th>Usuario</th>
+      <th>Email</th>
+      <th>Data Registro</th>
+      <th>Perfil</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.username %></td>
+      <td><%= user.email %></td>
+      <td><%= I18n.localize(user.created_at.to_date) %></td>
+      <td><%= user.roles.first.name.titleize unless user.roles.first.nil? %></td>
+      <td>
+        <a data-toggle="modal" href="#role-options-<%= user.id %>" class="btn btn-mini" type="button">Editar Perfil</a>
+        <%= render user %>
+      </td>
+      <td><%= link_to("Apagar", user_path(user), :data => { :confirm => "Deseja Realmente Apagar?" }, :method => :delete, :class => 'btn btn-mini') unless user == current_user %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+<%= link_to 'Novo Usuario', new_user_path %>
+</div>
+

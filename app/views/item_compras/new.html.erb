@@ -1,0 +1,24 @@
+<h1>Novo itens Compra</h1>
+
+<table>
+	<tr>
+	  <td width="33%">	
+	  	<b>Data:</b>
+	  	<%= I18n.localize(@item_compra.compra.data) %>
+	  </td>
+	  <td width="33%">
+		<b>Total:</b>
+		<%= number_to_currency(@item_compra.compra.total) %>
+	  </td>
+	  <td width="33%">	
+	    <b>Supermercado:</b>
+	    <%= @item_compra.compra.supermercado.nome %>
+	  </td>  
+	<tr>
+</table>
+
+<%= render 'form' %>
+
+<%= link_to 'Voltar', compras_path %>
+
+<%= render :template => "item_compras/index", :locals => { :@item_compras => @item_compra.compra.item_compras} %>

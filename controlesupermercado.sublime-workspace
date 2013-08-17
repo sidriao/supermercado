@@ -1,0 +1,508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"i",
+				"item_compras"
+			],
+			[
+				"co",
+				"compra"
+			],
+			[
+				"su",
+				"supermercado_id"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"no",
+				"nome"
+			],
+			[
+				"uni",
+				"unidade_medida"
+			],
+			[
+				"gr",
+				"grupo"
+			],
+			[
+				"ass",
+				"assert"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"ma",
+				"maximum"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 2493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/item_compras/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 2265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/item_compras.js",
+			"settings":
+			{
+				"buffer_size": 862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/item_compras_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/item_compras/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 137,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/item_compras/show.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/assets/stylesheets/application.css.scss",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/item_compra.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130621181332_change_total_to_compra.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130621175714_change_preco_data_type_to_item_compra.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/assets/javascripts/application.js",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/assets/javascripts/item_compras.js",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/item_compras/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/item_compras/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/database.yml",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/grupo.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/unidade_medida.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/compras/_item_field.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/compras/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/item_compras/_form.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/compras_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/devise/mailer/reset_password_instructions.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/devise/mailer/confirmation_instructions.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130602213557_change_quantidade_data_type_to_item_compra.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/produtos/edit.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130513153756_create_item_compras.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/assets/images/ui-bg_flat_75_ffffff_40x100.png",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/assets/stylesheets/jquery-ui-1.10.3.custom.css",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/users_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/user.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130526231457_rolify_create_roles.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/role.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/ability.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/application_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/users/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/Gemfile",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/users/_form.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/users/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/users/_user.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/home/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/layouts/_navigation.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/locales/devise.pt-BR.yml",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/locales/pt-BR.yml",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/locales/cancan.pt-BR.yml",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/unidade_medidas/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/devise/registrations/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130514230932_create_compras.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/devise/registrations/edit.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/devise/sessions/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/routes.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/users/edit.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/users/show.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/user_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/home_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/home/dashboard.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/registrations_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/initializers/devise.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/grupos_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/item_compras_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/produtos_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/supermercados_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers/unidade_medidas_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/locales/devise.views.pt-BR.yml",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/compras/edit.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/item_compras/edit.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130523222627_devise_create_users.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/environments/development.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/devise/passwords/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/locales/devise.en.yml",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/produto.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/compra.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/compras/show.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/compras/_form.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/application.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/models/supermercado.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/layouts/application.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/assets/stylesheets/scaffolds.css.scss",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130514232425_add_compra_id_to_item_compra.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/compras/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/supermercados/_form.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/supermercados/edit.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/supermercados/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/supermercados/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/supermercados/show.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/produtos/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/produtos/_form.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/produtos/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/produtos/show.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/grupos/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/unidade_medidas/edit.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/unidade_medidas/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/unidade_medidas/show.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/unidade_medidas/_form.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/grupos/show.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/grupos/_form.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/helpers/application_helper.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/grupos/edit.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/grupos/new.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/config/locales/en.yml",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/views/layouts/_messages.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130513004402_create_produtos.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130512235516_create_grupos.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130512234202_create_supermercados.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/migrate/20130513000316_create_unidade_medidas.rb",
+		"/home/sidriao/opt/RAILS/workspace/controlesupermercado/db/schema.rb",
+		"/home/sidriao/opt/RAILS/workspace/supermercado/config/database.yml",
+		"/home/sidriao/opt/RAILS/workspace/devisecancan/config/environments/development.rb",
+		"/home/sidriao/opt/RAILS/workspace/devisecancan/config/database.yml",
+		"/home/sidriao/opt/RAILS/workspace/devisecancan/Gemfile",
+		"/home/sidriao/opt/RAILS/workspace/comercio/config/application.rb",
+		"/home/sidriao/opt/RAILS/workspace/comercio/config/locales/pt-BR.yml",
+		"/home/sidriao/opt/RAILS/workspace/comercio/Gemfile",
+		"/home/sidriao/opt/RAILS/workspace/comercio/config/environments/development.rb",
+		"/home/sidriao/opt/RAILS/workspace/comercio/config/routes.rb",
+		"/home/sidriao/opt/RAILS/workspace/comercio/app/views/layouts/application.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/comercio/app/controllers/pages_controller.rb",
+		"/home/sidriao/opt/RAILS/workspace/comercio/app/views/home/index.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/comercio/app/views/home/index_autenticado.html.erb",
+		"/home/sidriao/opt/RAILS/workspace/comercio/README.rdoc",
+		"/home/sidriao/opt/RAILS/workspace/comercio/config/database.yml",
+		"/home/sidriao/opt/RAILS/workspace/comercio/app/controllers/login_controller.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/home/sidriao/opt/RAILS/workspace/controlesupermercado/app/controllers"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@unidade_medida",
+			"UnidadeMedida",
+			"error prohibited",
+			"was successfully updated.",
+			"was successfully created.",
+			"cooki",
+			"  \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@user",
+			"User",
+			"foi atualizado com sucesso.",
+			"foi criado com sucesso"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/environments/production.rb",
+					"settings":
+					{
+						"buffer_size": 2493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								653,
+								653
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/item_compras/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 2265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								977,
+								977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/javascripts/item_compras.js",
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/item_compras_controller.rb",
+					"settings":
+					{
+						"buffer_size": 2782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								902,
+								902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/item_compras/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"apl",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"appl",
+				"config/application.rb"
+			],
+			[
+				"form",
+				"app/views/grupos/_form.html.erb"
+			],
+			[
+				"ap",
+				"config/application.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true
+}

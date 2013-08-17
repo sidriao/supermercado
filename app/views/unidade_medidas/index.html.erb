@@ -1,0 +1,23 @@
+<h1>Listando Unidade Medidas</h1>
+
+<table class="table table-stripped">
+  <tr>
+    <th>Nome</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @unidade_medidas.each do |unidade_medida| %>
+  <tr>
+    <td><%= unidade_medida.nome %></td>
+    <td><%= link_to 'Exibir', unidade_medida %></td>
+    <td><%= link_to 'Editar', edit_unidade_medida_path(unidade_medida) %></td>
+    <td><%= link_to 'Apagar', unidade_medida, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Nova Unidade Medida', new_unidade_medida_path %>

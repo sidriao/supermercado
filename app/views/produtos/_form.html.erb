@@ -1,0 +1,23 @@
+<%= form_for(@produto) do |f| %>
+    <% if @produto.errors.any? %>
+    <div id="error_explanation">
+      <%= error_messages @produto %>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="field">
+    <%= f.label :unidade_medida %><br />
+    <%= f.collection_select(:unidade_medida_id, UnidadeMedida.all, :id, :nome, {:prompt => true}) %>
+  </div>
+  <div class="field">
+    <%= f.label :grupo %><br />
+    <%= f.collection_select(:grupo_id, Grupo.all, :id, :nome, {:prompt => true}) %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

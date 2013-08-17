@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nome: MyString
+  unidade_medida: 
+  grupo: 
+
+two:
+  nome: MyString
+  unidade_medida: 
+  grupo: 

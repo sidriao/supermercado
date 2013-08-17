@@ -1,0 +1,15 @@
+<h2>Login</h2>
+
+<%= form_for("user", :url => user_session_path, :class => "form-horizontal") do |f| %>
+  <div class="control-group">
+  	<%= f.label :login, :class => "control-label" %><br />
+  	<%= f.text_field :login, :autofocus => true, :placeholder => "Login" %>
+  </div>
+
+  <div class="control-group">
+  	<%= f.label :senha, :class => "control-label" %><br />
+  	<%= f.password_field :password, :placeholder => "Senha" %>
+  </div>
+
+  <div><%= f.submit "Login", :class => 'btn-primary' %></div>
+<% end %>

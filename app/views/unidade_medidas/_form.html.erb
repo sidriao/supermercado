@@ -1,0 +1,15 @@
+<%= form_for(@unidade_medida) do |f| %>
+  <% if @unidade_medida.errors.any? %>
+    <div id="error_explanation">
+      <%= error_messages @unidade_medida %>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

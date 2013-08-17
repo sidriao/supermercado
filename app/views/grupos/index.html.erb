@@ -1,0 +1,23 @@
+<h2>Grupos</h2>
+
+<table class="table table-stripped">
+  <tr>
+    <th>Nome</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @grupos.each do |grupo| %>
+  <tr>
+    <td><%= grupo.nome %></td>
+    <td><%= link_to 'Exibir', grupo %></td>
+    <td><%= link_to 'Editar', edit_grupo_path(grupo) %></td>
+    <td><%= link_to 'Apagar', grupo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Novo Grupo', new_grupo_path %>

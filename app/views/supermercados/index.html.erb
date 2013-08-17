@@ -1,0 +1,23 @@
+<h3>Listando Supermercados</h3>
+
+<table class="table table-stripped">
+  <tr>
+    <th>Nome</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @supermercados.each do |supermercado| %>
+  <tr>
+    <td><%= supermercado.nome %></td>
+    <td><%= link_to 'Exibir', supermercado %></td>
+    <td><%= link_to 'Editar', edit_supermercado_path(supermercado) %></td>
+    <td><%= link_to 'Apagar', supermercado, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Novo Supermercado', new_supermercado_path %>

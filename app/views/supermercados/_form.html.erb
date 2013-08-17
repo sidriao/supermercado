@@ -1,0 +1,15 @@
+<%= form_for(@supermercado) do |f| %>
+ <% if @supermercado.errors.any? %>
+    <div id="error_explanation">
+      <%= error_messages @supermercado %>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

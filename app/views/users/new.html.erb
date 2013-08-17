@@ -1,0 +1,28 @@
+<h2>Cadastro de Usuario</h2>
+
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <%= error_messages @user %>
+    </div>
+  <% end %>
+
+  <div><%= f.label :usuario %><br />
+  <%=  f.text_field :username, :placeholder => "Usuario"  %></div>
+
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email, :autofocus => true, :placeholder => "Email" %></div>
+
+  <div><%= f.label :senha %><br />
+  <%= f.password_field :password, :placeholder => "Senha" %></div>
+
+  <div><%= f.label :senha_confirmacao %><br />
+  <%= f.password_field :password_confirmation, :placeholder => "Senha Confirmacao" %></div>
+
+  <br />
+  <div><%= f.submit "Cadastrar", :class => 'btn-primary' %></div>
+<% end %>
+
+
+
+<%= link_to 'Voltar', users_path %>
